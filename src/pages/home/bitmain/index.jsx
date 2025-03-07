@@ -51,7 +51,7 @@ const Bitmain = () => {
         </div>
 
         <div className="  w-[50%] max-[850px]:w-full">
-          <div className="bg-white shadow rounded-3xl py-10 max-[850px]:hidden">
+          <div className="bg-white shadow rounded-3xl py-10 ">
             <img src={maskSwiper} className="w-fit mx-auto" alt="" />
           </div>
           <div className="mt-3 flex items-center gap-3">

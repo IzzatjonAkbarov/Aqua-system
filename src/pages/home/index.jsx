@@ -9,6 +9,7 @@ import AquaSystem from "./aquaSystem";
 import Hydro from "./hydro";
 import Bitmain from "./bitmain";
 import SystemHydro from "./systemHydro/idnex";
+import BottomBanner from "./lastsection";
 const Home = () => {
   return (
     <div>
@@ -50,6 +51,7 @@ const Home = () => {
       <Hydro />
       <Bitmain />
       <SystemHydro />
+      <BottomBanner />
     </div>
   );
 };
