@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+* {
+  box-sizing: border-box;
+}
+
+.container1 {
+  width: 92%;
+  margin: 0 auto;
+}
+@media (min-width: 1450px) {
+  .container1 {
+    width: 1440px;
+  }
+}
